@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man: Into the Spider-Verse</title>
+
+    <!--to link an external stylesheet we us the selfclosing tag link and specifiy the relation-->
+    <link rel="stylesheet" href="moviestylesheet.css">
+
+    <!--to use roboto font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <!--using an "a" tag causes the button to lead to the chosen destination, we set the target to _blank so it opens in a new page-->
+        <a href="https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse"
+        target="_blank"
+        title="Takes you to wikipedia page">
+
+        <!--we use the button tag to create a button-->
+            <button>Wikipedia Page</button>
+        </a>
+        <h1>Spider-Man: Into the Spider-Verse</h1>
+
+        <!--we use the nav tag to create the navigation. I set a class so its easier to edit in css-->
+        <nav class="navbar">
+
+            <!--to create a unorderd list we use the tag ul and we use the tag li for each item inside the lisit
+            adding an a tag and making it refer to the id of a section of the webpage so it scrolls over when clicked-->
+            <ul>
+                <li><a href="#plot">Plot</a></li>
+                <li><a href="#cast">Cast</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ&ab_channel=SonyPicturesEntertainment" target=_blank>Movie trailer</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+
+        <!--we use the section tag to seperate each section from each other. In this case we added an id to the section called "plot".
+        We do this so we can create a hyperlink within the page in the nav bar -->
+        <section id="plot">
+            <h2>Plot</h2>
+            <p>New York City teenager Miles Morales struggles to live up to the expectations of his father, police officer Jefferson Davis, who sees Spider-Man as a menace. Miles' uncle Aaron Davis takes him to an abandoned subway station to paint graffiti to cheer him up. There, Miles is bitten by a radioactive spider and gains abilities similar to Spider-Man. Returning to the station, he discovers a collider built by Kingpin, who hopes to access parallel universes to abduct alternate versions of his late wife and son. Spider-Man attempts to disable the collider while fighting Kingpin's enforcers, the Green Goblin and Prowler.<br><br>
+
+                Green Goblin shoves Spider-Man into the collider, causing an explosion that kills the former and wounds the latter, who then gives Miles a USB flash drive designed to disable the collider, warning that the machine could destroy the city if reactivated. After watching in horror as Kingpin murders Spider-Man, Miles flees. As the city mourns Spider-Man's death, Miles tries to honor his legacy and become the new Spider-Man but inadvertently damages the drive. At Spider-Man's grave, he meets Peter B. Parker, an older and worn-down version of Spider-Man from another dimension.<br><br>
+                
+                The duo infiltrate Kingpin's research facility to steal data for a new flash drive. They are confronted by head scientist Olivia Octavius, who discovers that Peter will die from cellular decay if he remains in their dimension for much longer. Miles and Peter are then saved by Gwen Stacy, a Spider-Woman from another dimension. They visit Spider-Man's aunt, May Parker; she is sheltering more Spider-people who slipped into Miles' universe from other dimensions due to the collider's influence—Spider-Man Noir, Peni Parker, and Spider-Ham—who are also deteriorating. Miles offers to help the others return home but they tell him he lacks experience.<br><br>
+                
+                Distraught, Miles retreats to Aaron's home, where he discovers his uncle is the Prowler, one of Kingpin's henchmen. He flees to May's house, where the new drive is completed; he is followed by Kingpin, Aaron, Octavius, Scorpion, and Tombstone. In the ensuing brawl, he reveals his identity to Aaron. Unwilling to kill his own nephew, Aaron attempts to spare Miles, but is fatally shot by Kingpin in retaliation and dies in Miles' arms. Miles flees just as Jefferson arrives on the scene; he mistakes the new Spider-Man as his brother's murderer. The heroes regroup with a devastated Miles. Unwilling to let Miles get killed, Peter restrains Miles with his webs for his safety and chooses to sacrifice himself by staying behind and deactivating the collider.<br><br>
+                
+                Jefferson arrives outside Miles' door and apologizes for his mistakes and expresses his faith in Miles, inspiring him. Miles manages to control his powers, escapes his restraints, and creates his own Spider-Man suit. He joins the heroes, including Peter, defeating Kingpin's enforcers and using the new drive to send them home. Kingpin fights Miles attracting the attention of Jefferson. Realizing that Spider-Man is not the menace he saw him as, he encourages Miles, who throws Kingpin at the collider's kill switch, destroying it. The city is saved, Kingpin and his henchmen are arrested and Jefferson receives evidence of Kingpin's murders of Spider-Man and Aaron.
+                
+                Miles embraces the responsibilities of his new life. Later, Gwen finds a way to contact Miles from her own dimension. Elsewhere, Miguel O'Hara, also known as Spider-Man 2099, travels to Earth-67 and argues with its Spider-Man.</p>
+        </section>
+        <br>
+        <hr>
+
+        <!--we use the section tag to seperate each section from each other. In this case we added an id to the section called "cast".
+        We do this so we can create a hyperlink within the page in the nav bar -->
+        <section id="cast">
+            <h2>Cast</h2>
+
+            <!--adding a class actors and class desc to each heading and paragraph tag to be able to edit them without disturbing other
+            p tags and heading tags in other sections-->
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Shameik_Moore" target="_blank">Shameik Moore</a> as Miles Morales / Spider-Man:</h4>
+            <p class="desc">An intelligent and rebellious teenager of African-American and Puerto Rican descent, who is imbued with spider-like abilities after being bitten by a radioactive spider and eventually takes up the mantle of the masked vigilante Spider-Man. Producers Lord and Miller described the character as unique among Spider-Men because of his Brooklyn upbringing, his African-American and Puerto-Rican background, and the fact that his family is still alive,[10] with that family dynamic being central to the film's story.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Jake_Johnson" target="_blank">Jake Johnson</a> as Peter B. Parker / Spider-Man:</h4>
+            <p class="desc">Miles' reluctant mentor, a disheveled, jaded, and brown-haired 38-year-old counterpart of the hero from another dimension. He is intended to be an amalgamation of all pop culture Spider-Man adaptations and interpretations. Lord and Miller envisioned him to be like The Karate Kid's Mr. Miyagi, if "Mr. Miyagi doesn't know anything," which they thought was a "really neat color to put onto Peter that we hadn't seen before."</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Hailee_Steinfeld" target="_blank">Hailee Steinfeld</a> as Gwen Stacy / Spider-Woman:</h4>
+            <p class="desc">A dimension-displaced counterpart of Gwen Stacy with spider-like abilities, who takes up the alias of "Wanda" (mistaken as "Gwanda") while at Miles' school. In onscreen comic books while explaining her origin story, she is referred to as "Spider-Gwen".</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Mahershala_Ali" target="_blank">Mahershala Ali</a> as Aaron Davis / Prowler:</h4>
+            <p class="desc">Miles' uncle, who moonlights as a masked enforcer for Wilson Fisk while keeping it a secret from his family. He is rebellious, causing him to be looked at poorly by Jefferson.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Brian_Tyree_Henry" target="_blank">Brian Tyree Henry</a> as Jefferson Davis:</h4>
+            <p class="desc">Miles' African-American father, a police officer, who disapproves of Spider-Man's vigilante actions. At the age of 35, Henry had said he was too young to portray a father of a teenager, but agreed to the role after learning that Miles Morales was the only black, Latino Spider-Man.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Lily_Tomlin" target="_blank">Lily Tomlin</a> as May Parker:</h4>
+            <p class="desc">Peter's aunt, who is dead in Peter B. Parker's universe, and provides refuge for the other Spider-People in Miles' universe</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Lauren_V%C3%A9lez" target="_blank">Luna Lauren Vélez</a> as Rio Morales:</h4>
+            <p class="desc">Miles' Puerto-Rican mother, a nurse.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Zo%C3%AB_Kravitz" target="_blank">Zoë Kravitz</a> as Mary Jane "MJ" Parker:</h4>
+            <p class="desc">Peter Parker's wife in Miles' universe and Peter B. Parker's former wife in his universe.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/John_Mulaney" target="_blank">John Mulaney</a> as Peter Porker / Spider-Ham:</h4>
+            <p class="desc">An alternate talking animal version of Spider-Man from an anthropomorphic universe, who was once a spider, bitten by a radioactive pig.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Kimiko_Glenn" target="_blank">Kimiko Glenn</a> as Peni Parker / SP//dr:</h4>
+            <p class="desc">A young Japanese-American girl from an alternative anime-like universe who copilots a biomechanical suit with a radioactive spider that she shares a telepathic link with. The filmmakers initially considered using Silk as their Asian-American Spider-Man, but eventually settled on Peni because of her more distinctive power set compared to the other Spider-People. Peni's designs went through a few iterations as her initial design was particularly "iffy." Production designer Justin Thompson considered Lord and Miller's desire to use an anime design and came up with the idea to portray her in an art style similar to Sailor Moon.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Nicolas_Cage" target="_blank">Nicolas Cage</a> as Peter Parker / Spider-Man Noir:</h4>
+            <p class="desc">An alternate version of Peter Parker from a monochromatic universe set in the 1930s. Cage based his character on the films of Humphrey Bogart, and the voices of actors from that era such as James Cagney and Edward G. Robinson.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Kathryn_Hahn" target="_blank">Kathryn Hahn</a> as Doctor Olivia "Liv" Octavius:</h4>
+            <p class="desc">The head scientist and CEO of Alchemax, and a scientific adviser to Wilson Fisk. The character uses highly advanced tentacles and is featured in much of the marketing for Alchemax, even being seen in a documentary by Miles in school.</p>
+            <h4><a class="actors"href="https://en.wikipedia.org/wiki/Liev_Schreiber" target="_blank">Liev Schreiber</a> as Wilson Fisk / Kingpin:</h4>
+            <p class="desc">A crime lord and the benefactor of Alchemax in Miles' dimension. His ultimate motive is to abduct alternate versions of his late wife and son, who died in a car crash escaping from him.</p>
+        </section>
+        <br>
+
+        <hr>
+
+        <!--we use the section tag to seperate each section from each other. In this case we added an id to the section called "reviews".
+        We do this so we can create a hyperlink within the page in the nav bar -->
+        <section id="reviews">
+            <h2>Reviews</h2>
+
+            <!--we give different p tags different classes. The names of the reviewers have a class called "rv" and the description
+            has a class named "rvd". We use these classes to make it easier to edit in css-->
+            <p class="rv"><b>Matthew Mussett</b></p>
+
+                <p class="rvd">This 2018 American computer-animated superhero film is one of the most solid animations which aren't made by Disney or Pixar in a long, long time. Here's my reasons for why this film deserves all the accolades it has received.
+
+                Without a doubt, the best part of this film is it's animation. It's the combined talents of 140 animators all working to mix computer-animation with traditional band-drawn comic book techniques which makes this film a literal sight to behold.
+                
+                The characters are so engaging, but none are quite like Miles Morales. Before, to be honest, he was basically black Spider-Man to even the most hardcore of comic book fans. But now, thanks to this film, he is a far more fleshed-out and developed character with real motivations and relatability.
+                
+                The story is also complex and real. The amount of attention put into the writing has made this story so believable, despite easily tackling concepts such as multiple realities and super-powered individuals. 
+                
+                The voice acting is on point. In this film, shout out to Jake Johnson, who's portrayal as an old and experienced Peter Parker who hasn't just been through life as Spider-Man but also just the toils of life in general is so entertaining and also interesting. It's a new look on an iconic character which we’ve never seen before, yet love all the same.
+                
+                To an extent, the unique aesthetics themselves allow for a few laughs here and there. But there is so much comedy in this fairly emotional rollercoaster of a film that it's hard to even describe. From personal gags between characters to jokes based on the lives of New York citizens, every funny moment got at least a giggle out of me.
+                
+                Finally, the soundtrack is on point. Having listened to the album on Spotify multiple times, you can see that many of the songs relate to Miles' struggle. Each song somehow carefully reflects a key aspect of the film, whether blatantly obvious or a little harder to realise. Also, the genres the songs fall into reflect Miles’ urban upbringing and culture which is really something for an animated film.
+                
+                Overall, nothing I could say could do this film justice. This is a film that me and so many other comic book fans have been waiting for and oh boy, we were in for a treat. This film was dedicated to the memories of the creators of Spider-Man, Stan Lee and Steve Ditko, and this film couldn’t have honoured them in any better way.
+            </p>
+        
+            <p class="rv"><b>Brandon Godoy</b></p>
+            <p class="rvd">THE BEST ANIMATED SPIDER-MAN MOVIE EVER! THIS IS MY FAVORITE NOT DISNEY (WELL MAYBE), NOT PARAMOUNT, BUT SONY, COLUMBIA, SONY PICTURES ANIMATION AND MARVEL MOVIE OFF ALL TIME! I LOVE THIS MOVIE SO MUCH! VERY VERY MUCH! THIS IS THE BEST SPIDER-MAN MOVIE EVER THAN THE OTHER SPIDER-MAN MOVIES! EXCEPT ACROSS THE SPIDER-VERSE AND THE UPCOMING MOVIE SPIDER-MAN: BEYOND THE SPIDER-VERSE! I AM SO EXCITED FOR THE 3RD SPIDER-MAN/SPIDER-VERSE MOVIE! I LOVE THIS ANIMATION SO MUCH! SAME THING LIKE THE LEGO MOVIE BUT EVEN BETTER! EVERYTHING IS AWESOME IN SPIDER-MAN: INTO THE SPIDER-VERSE! THE BEST MOVIE THAT WAS EVER MADE! THE BEST ACTION ANIMATED SUPERHERO MOVIE EVER! SPIDER-MAN WAS OWNED BY DISNEY AND SONY! And these Spider-Man movies even my favorite Spider-Verse are available on stream channels, DVDs, 4K ULTRA HDs, And Blu-Rays. The 1st Spider-Verse movie was AWESOME, BEST, AMAZING, COOLEST, WONDERFUL movie that I ever watched! The 2nd Spider-Verse movie was way way WAY MORE! VERY VERY VERY VERY MORE than the BEST, ALAZING, COOLEST AND WONDERFUL movie that I ever watched! I guess everyone loves the 2 Spider-Verse movies! I hope my friends/classmates like or love 2 Spider-Verse movies. I might be going to watch 2 Spider-Verse movies on DVD again or on stream channels for the first time but this time with my friends/classmates! Now that I watched 2 Spider-Verse movies that "Into" and "Across" on DVD, I can finally see the Upcoming Spider-Verse movie that was "Beyond The Spider-Verse!" I can't wait to see it! I draw Spider-Heroes/characters are Peter Porker, Peni Parker, and Gwen Stacy. I drew pictures of Gwen Stacy from Across The Spider-Verse. She's my favorite Spider-Hero/character with Peni Parker. Also Miles, Peter B. Peter Porker, and Spider-Man Noir. But mostly Gwen and Peni. I was obsessed with Peni Parker for 5 years! I am also obsessed with gwen Stacy for ALSO 5 years! Last time I drew Peni Parker but I threw it away! It's because my drawings are not perfect enough! I might have to re-draw Peni again and keep drawing pictures of Gewn Stacy! This movie has Certified Fresh Tomatoes and Five Stars well 4 or 4 1/2 Stars! But I was so late for it! But Oh Well, It's still the best movie ever that I watched! Spider-Man was owned by Disney and Sony. Spider-Man movies even my favorite Spider-Verse are available on streaming channels, DVDs, Blu-rays, and 4K ULTRA HDs. SPIDER-MAN: Into The Spider-Verse is a 2018 American animated superhero film featuring the Marvel Comics character Miles Morales/Spider-Man, produced by Columbia Pictures and Sony Pictures Animation in association with Marvel Entertainment, and distributed by Sony Pictures Releasing.And maybe Disney or Walt Disney Pictures I think. Disney owns Marvel! It was the first animated film in the Spider-Man franchise. This film was in Rated PG Parental Guidance Suggested for Mild Language, Fernetic Action Violence, and Thematic Elements. It was released in theaters everywhere on December 14, 2018. (A christmas day) It was released on streaming channels on March 7, 2019. My favorite Spider-Heroes/characters are Miles Morales (Shameik Moore), Gwen Stacy (Hailee Steinfeld), Peter B. Parker (Jake Johnson), Spider-Man Noir (Nicolas Cage), Peni Parker (Kimiko Glenn), Peter Porker (John Mulaney), Aunt May (Lily Tomlin), Rio Morales (Luna Lauren Velez), and Jefferson Davis (Brian Tyree Henry). Also Peter Parker (Chris Pine). But I'm so sad that he died and it's all because of Wilson Fisk/Kingpin (Liev Schreiber). That was it! That's my review about the movie! PS. I watched SPIDER-MAN: Into The Spider-Verse and Mulan 2 DVD on February 17, 2024. because IT'S MY BIRTHDAY! I'm 18 years old now!
+            </p>
+            <p class="rv"><b>Daniel</b></p> 
+                <p class="rvd">The Ultimate Spider-Man Movie of All Time!
+
+                The movie is an outstanding piece of art that would have certainly received approval from Stan Lee himself. Its animation is incredible, and the story is both great and thought-provoking. The film not only lives up to the hype but also exceeds expectations, despite some negative reviews from viewers who cannot be satisfied no matter what. In general, the vast majority of viewers are likely to find the film to be amazing, especially when watched in theaters, as it features an extraordinary animation style. Every aspect of the movie, such as visuals, concepts, soundtrack, characters, pace, humor, and animation, is among the best ever seen in any movie. It is visually engaging, beautiful in every scene, and features an incredibly unique art style, which sets a high bar for other animated movies. The flashing lights may alienate epileptic audiences, but it is done in an artistic way. Despite this, the film is almost perfect, and the visuals alone won it an Oscar.
+                
+                The story is great, introducing us to a new Spider-Man with his own unique skills and personality. The script is tight, and the production is executed with precision. The voice acting is top-notch, with Shamiek Moore as Miles Morales and Jake Johnson as Peter Parker delivering superb performances.
+                
+                Hailee Steinfeld and the supporting cast also shine in this movie.
+                
+                As far as continuity/plot holes are concerned, the movie could have been 15-20 minutes longer. Nonetheless, there aren't many issues, and the visuals are the film's main attraction, which can only be fully appreciated by watching it in 3D. In conclusion, the film is an exceptional piece of art that will leave a lasting impression on viewers, as it surpasses every criterion of making a nearly perfect movie.
+            </p>
+            
+
+        </section>
+
+
+
+
+        <br>
+        <hr>
+    </main>
+
+    <footer>
+        <br>
+        Information from <b>Wikipedia</b><br>
+        Reviews from <b>Google</b>
+
+    </footer>
+</body>
+</html>

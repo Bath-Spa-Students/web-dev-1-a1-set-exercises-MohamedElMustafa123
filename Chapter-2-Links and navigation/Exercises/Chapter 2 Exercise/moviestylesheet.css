@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin: 10px;
+}
+@font-face{ /*To use downloaded fonts*/
+    src: url(fonts/VetoSans-Bold.ttf);
+    font-family:VetoSans-Bold;
+}
+
+@font-face{
+    src: url(fonts/VetoSans-Medium.ttf);
+    font-family:VetoSans-Medium;
+}
+
+@font-face{
+    src: url(fonts/VetoSans-Light.ttf);
+    font-family:VetoSans-Light;
+}
+
+h1{
+    font-family:VetoSans-Bold, Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+    font-size:2.7em; /*controls the font size*/
+    color:red;/*controls the color of the text*/
+}
+
+h2{
+    font-family:VetoSans-Medium, Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+    font-size:1.9em; /*controls the font size*/
+    color:red;/*controls the color of the text*/
+}
+
+h4{
+    font-family:VetoSans-Medium, Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+    font-size:1.1em; /*controls the font size*/
+
+}
+
+p{
+    font-family:VeoSans-Light,Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+}
+
+button{
+    font-family:VetoSans-Bold, Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+    font-size:1.1em; /*controls the font size*/
+    border-radius:5px; /*controls the curve of the border*/
+    float:right; /*the float property allows elements to float around the button*/
+    margin-top: 15px; /*controls the spacing of the top of the element*/
+}
+
+button:hover{
+    color:red; /*controls the color of the text*/
+    background-color: black; /*controls the background color*/
+}
+
+html{
+    scroll-behavior: smooth; /*makes the scrolling smooth*/
+}
+.navbar ul{
+    list-style-type: none; /*removes the bullets from the list*/
+    background-color:black; /*controls the background color*/
+    padding: 0px; /*creates space around an element's content*/
+    margin: 0px; /*controls the spacing of the element*/
+    overflow:hidden;/*cuts out an overflowing element*/
+
+}
+
+.navbar a{
+    color:white; /*controls the color of the text*/
+    text-decoration:none; /*removes any decoration from the text in this case the underline*/
+    padding:15px;/*creates space around an element's content*/
+    display:block;/*causes an element to take a newline in the screen width*/
+    text-align:center; /*centers the text*/
+
+}
+
+.navbar a:hover{ /*on hover the following occurs*/
+    background-color:red; /*controls the background color*/
+}
+
+.navbar li{
+    float:left;  /*the float property allows elements to float around the button*/
+}
+
+a{
+    color:black; /*controls the color of the text*/
+    text-decoration-line:none; /*removes any decoration from the text in this case the underline*/
+}
+.actors:hover{ /*on hover the following occurs*/
+    color:red; /*controls the color of the text*/
+
+}
+
+.desc{
+    margin-top: 5px; /*controls the spacing of the top of the element*/
+    font-family:VeoSans-Light,Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+
+}
+
+h4{
+    margin-bottom:5px; /*controls the spacing of the bottom of the element*/
+}
+
+#mt:hover{
+    color:red; /*controls the color of the text*/
+
+}
+
+.rvd{
+    font-family:VeoSans-Light,Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+    font-weight:lighter; /*makes the test appear lighter*/
+    margin-top:3px; /*controls the spacing of the top of the element*/
+    margin-bottom:10px;  /*controls the spacing of the bottom of the element*/
+
+}
+
+.rv{
+    margin-bottom:3px; /*controls the spacing of the bottom of the element*/
+}
