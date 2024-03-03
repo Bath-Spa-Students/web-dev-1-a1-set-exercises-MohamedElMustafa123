@@ -1,0 +1,71 @@
+body{
+    margin: 0px; /* we use margin to create space around the elements*/
+}
+#himg{
+    float:right; /*the float property allows elements to float around the image*/
+}
+h1{
+    text-align:center; /*aligns the h1 text to the center*/
+    background-color:#82c9ff; /*changes the background color*/
+    margin: 0px;
+    color:white; /*color of the text*/
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+}
+#h1{
+    text-align:left; /*aligns the element with the id "h1" to the left*/
+    padding-left:50px; /*creates space to the left of the element*/
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+    color:#82c9ff; /*color of the text*/
+}
+
+#htags{
+    text-align:center; /*aligns the element with the id "htags" to the center*/
+    color:white; /*color of the text*/
+    background-color:#82c9ff; /*changes the background color*/
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+}
+#p1{
+    padding-left:50px;
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+}
+
+h3{
+    padding-left:50px;
+    color:#82c9ff; /*color of the text*/
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+
+}
+
+p{
+    padding-left:50px; /*moves the text to the right by 50px*/
+    font-family: Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+}
+#cssp{
+    text-align:center;
+    color:white; /*color of the text*/
+    background-color:#82c9ff; /*changes the background color*/
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+
+}
+footer{
+    background-color:#82c9ff; /*changes the background color*/
+    margin: 0px;
+    color:rgb(0, 0, 0); /*color of the text*/
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+}
+
+.box_code{
+
+    background-color: #f0f0f0; /* controls the background color of the box*/
+    padding: 50px; /*controls the space around the content inside the box*/
+    border-radius: 5px; /*control the roundness of the box*/
+    display: inline-block; /*to fit content*/
+    margin-left: 50px; /*moves the box to the right by 50px*/
+    
+  }
+
+ul{
+    font-family:Roboto, arial; /*using font-family property we can select fonts desired. In this case roboto, arial is the fallback font*/
+    padding-left:80px; /*moves the text to the right by 80px*/
+
+}

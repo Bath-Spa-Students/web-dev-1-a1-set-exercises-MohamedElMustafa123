@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title of the website goes here-->
+    <title>HTML AND CSS RESOURSE</title>
+
+    <!--adding a faviicon we use the relation icon and state the file type of the image-->
+    <link rel="icon" type="image/jpeg" href="pandaicon.jpeg">
+
+    <!--to link an external stylesheet we us the selfclosing tag link and specifiy the relation-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--to use roboto font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <h1>HTML & CSS quick-reference guide</h1>
+        <!--to add an image to a website we use the tag img we can state its height and add an alt text which dispalys if the image
+        doesnt load-->
+        <img src="pandaicon.jpeg" height= "100px" id="himg" alt="Icon of the webpage">
+    </header>
+
+    <main>
+        <!--we add an id if we want to specificialy target a certain element. the i and b tags are used to make the text bold and italic.
+        br is to add a line break-->
+        <p id="p1"><b><i>HTML</i></b>(HyperText Markup Language) is the standard markup language for creating Web pages.
+            <br> <b><i>Tags</i></b> are the keywords on a web page that define how your web browser must format and display your web page. Almost all tags contain two parts, an opening, and a closing tag.
+            <br> In HTML we make use of tags for different purposes.
+        </p>
+        <br>
+        <hr>
+
+        <h2 id="h1">HTML STRUCTURE</h2>
+
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+
+        <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+        used to define code  -->
+            <pre>
+                <code>
+                    <!--The code is encoded -->
+                    <!--removed the indentation for visual appeal in output-->
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  SUBHEADING 1 *******************************************************-->
+
+        <!--I used an id in this h2 tag to spceficialy target it to make it center aligned since there are two h2 tags in this code-->
+        <h2 id="htags">HTML Tags</h2>
+
+        <!--Simple heading tag-->
+        <h3>1) HTML Headings</h3>
+
+        <!--Simple paragraph tag-->
+        <p>Header tags, also known as heading tags, are used to separate headings and subheadings on a webpage. They rank in order of importance, from H1 to H6, with H1s usually being the title. Header tags improve the readability and SEO of a webpage.</p>
+
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+
+        <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+        used to define code  -->
+            <pre>
+                <code>
+                    <!--The code is encoded -->
+                    <!--removed the indentation for visual appeal in output-->
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  SUBHEADING 2 *******************************************************--> 
+
+        <h3>2) Paragraph tag</h3>
+        <p>The p tag defines a paragraph.</p>
+        <p>Browsers automatically add a single blank line before and after each p element.</p>
+
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--The code is encoded -->
+                    <!--removed the indentation for visual appeal in output-->
+&lt;p&gt;This is some text in a paragraph.&lt;/p&gt;
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  SUBHEADING 3 *******************************************************-->
+
+        <h3>3) Line break tag</h3>
+        <p>The br tag inserts a single line break.</p>
+        <p>The br tag is useful for writing addresses or poems.</p>
+        <p>The br tag is an empty tag which means that it has no end tag.</p>
+
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+&lt;p&gt;To force&lt;br&gt; line breaks&lt;br&gt; in a text,&lt;br&gt; use the br&lt;br&gt; element.&lt;/p&gt;
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  SUBHEADING 4 *******************************************************-->
+        
+        <h3>4) horizontal line tag</h3>
+        <p>The hr tag defines a thematic break in an HTML page (e.g. a shift of topic).</p>
+        <p>the hr element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--The code is encoded -->
+                    <!--removed the indentation for visual appeal in output-->
+&lt;h1&gt;The Main Languages of the Web&lt;/h1&gt;
+
+&lt;p&gt;HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.&lt;/p&gt;
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  SUBHEADING 5 *******************************************************-->
+
+        <h3>5) Comment tag</h3>
+        <p>The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.</p>
+        <p>You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--The code is encoded -->
+                    <!--removed the indentation for visual appeal in output-->
+&lt;!--This is a comment. Comments are not displayed in the browser--&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+                </code>
+            </pre>
+        </div>
+        <br>
+        <br>
+        <hr>
+
+
+        <!--**************************************************  CSS SUBHEADING 1 ***************************************************-->
+
+        <h2 id="cssp">CSS Properties</h2>
+        <h3>1) Background-color property</h3>
+        <p>The background-color property sets the background color of an element.</p>
+        <p>The background of an element is the total size of the element, including padding and border (but not the margin).</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+body {background-color: coral;}
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  CSS SUBHEADING 2 ***************************************************-->
+
+        <h3>2) color property</h3>
+        <p>The color property specifies the color of text. </p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+body {
+    color: red;
+}
+
+h1 {
+    color: #00ff00;
+}
+
+p.ex {
+    color: rgb(0,0,255);
+}
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  CSS SUBHEADING 3 ***************************************************-->
+        
+        <h3>3) Font-size Property</h3>
+        <p>The font-size property sets the size of a font</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+div.a {
+    font-size: 15px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  CSS SUBHEADING 4 ***************************************************-->
+
+        <h3>4) Font-family Property</h3>
+        <p>The font-family property specifies the font for an element.</p>
+        <p>The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font. </p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+p.a {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  CSS SUBHEADING 5 ***************************************************-->
+        
+        <h3>5) Font-style property</h3>
+        <p>The font-style property specifies the font style for a text.</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+p.a {
+    font-style: normal;
+}
+
+p.b {
+    font-style: italic;
+}
+
+p.c {
+    font-style: oblique;
+}
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  CSS SUBHEADING 6 ***************************************************-->
+        
+        <h3>6) Font-weight property</h3>
+        <p>The font-weight property sets how thick or thin characters in text should be displayed.</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+p.normal {
+    font-weight: normal;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+                </code>
+            </pre>
+        </div>
+        
+
+        <!--**************************************************  CSS SUBHEADING 7 ***************************************************-->
+
+        <h3>7) Text-align property</h3>
+        <p>The text-align property specifies the horizontal alignment of text in an element.</p>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+div.a {
+    text-align: center;
+}
+
+div.b {
+    text-align: left;
+}
+
+div.c {
+    text-align: right;
+}
+
+div.c {
+    text-align: justify;
+}
+                </code>
+            </pre>
+        </div>
+
+
+        <!--**************************************************  CSS SUBHEADING 8 ***************************************************-->
+
+        <h3>8) Text-decoration property</h3>
+        <p>The text-decoration property specifies the decoration added to text, and is a shorthand property for:</p>
+
+        <!--to create an unordered list we use the tah ul and we use the tag li on the items inside the ul tag-->
+        <ul>
+            <li>text-decoration-line (required)</li>
+            <li>text-decoration-color</li>
+            <li>text-decoration-style</li>
+            <li>text-decoration-thickness</li>
+        </ul>
+        
+        <!--we use div to group the elements together, we use class to set style for the elements-->
+        <div class="box_code">
+            
+            <!--to add a code snippet we need to use the tags pre and code. pre defines the look of the preformatted text, and the code tag is
+            used to define code  -->
+            <pre>
+                <code>
+                    <!--removed the indentation for visual appeal in output-->
+h1 {
+    text-decoration: overline;
+}
+
+h2 {
+    text-decoration: line-through;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: underline overline;
+}
+                </code>
+            </pre>
+        </div>
+
+        <br>
+        <br>
+
+    </main>
+
+    <footer>
+        <hr>
+        Website created by: Mohamed Elmustafa<br>
+        <a href="mailto:nobimohamed262@gmail.com" title="redirects to email">Email me</a>
+
+
+    </footer>
+</body>
+</html>
