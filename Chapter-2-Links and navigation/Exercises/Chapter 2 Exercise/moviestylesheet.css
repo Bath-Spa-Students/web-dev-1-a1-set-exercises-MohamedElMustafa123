@@ -1,5 +1,7 @@
 body{
-    margin: 0px;
+    margin: 0px; 
+    background-image:linear-gradient(45deg,black,red); /*adds the background colors*/
+    
 }
 
 main{
@@ -35,11 +37,14 @@ h2{
 h4{
     font-family:VetoSans-Medium, Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
     font-size:1.1em; /*controls the font size*/
+    color:white;
 
 }
 
 p{
     font-family:VeoSans-Light,Roboto; /*using font-family property we can select fonts desired. In this case Vetosans, roboto is the fallback font*/
+    color:white;
+
 }
 
 button{
@@ -88,6 +93,10 @@ a{
     color:black; /*controls the color of the text*/
     text-decoration-line:none; /*removes any decoration from the text in this case the underline*/
 }
+
+.actors{
+    color:white;
+}
 .actors:hover{ /*on hover the following occurs*/
     color:red; /*controls the color of the text*/
 
@@ -101,6 +110,7 @@ a{
 
 h4{
     margin-bottom:5px; /*controls the spacing of the bottom of the element*/
+    color:white;
 }
 
 #mt:hover{
@@ -118,4 +128,7 @@ h4{
 
 .rv{
     margin-bottom:3px; /*controls the spacing of the bottom of the element*/
+}
+footer{
+    color:white; /*color of text in footer*/
 }
