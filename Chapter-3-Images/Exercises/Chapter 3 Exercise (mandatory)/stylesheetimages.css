@@ -1,0 +1,70 @@
+body{
+    background-image:linear-gradient(45deg,#F2D2BD, #80461B); /*adds the background colors*/
+
+}
+
+h1{
+    text-align: center; /*alings text to the center*/
+    font-family: Cinzel Decorative, Arial; /*font-family is used to select a font. Arial is the fallback font*/
+
+}
+
+#container{
+    display:flex; /*allows items to rearrange depending on the size of screen*/
+    justify-content: center; /*alings content to the center*/
+    align-items: center; /*alings items to the center*/
+
+}
+
+#container div{
+    margin: 50px; /*controls the spacing around an element*/
+}
+
+#img1{
+    border: 3px solid black; /*adds a border around the images of 3px, solid and the color black*/
+    border-radius: 5px; /*adds a curve to the border*/
+
+}
+
+#img3{
+    border: 3px solid black;/*adds a border around the images of 3px, solid and the color black*/
+    border-radius: 5px; /*adds a curve to the border*/
+
+}
+
+#img4{
+    border: 3px solid black;/*adds a border around the images of 3px, solid and the color black*/
+    border-radius: 5px; /*adds a curve to the border*/
+
+}
+
+#img1:hover{
+    filter:blur(2px) /*to use blur filter*/
+}
+
+#img3:hover{
+    filter:invert(100%) /*to use invert filter, 100 is the max*/
+
+}
+
+#img4:hover{
+    filter:contrast(130%)/*to use contrast filer*/
+}
+
+hr{
+    width: 100%; /*controls the width of the line*/
+    height: 2px; /*controls the height of the line*/
+    border: 0 none; /*no borders. added this so we can control the border radius*/
+    border-radius: 5px; /*adds a curve to the border*/
+    margin:auto; /*margin set to auto*/
+    background-color: white; /*controls the color of the line*/
+}
+
+figcaption{
+    font-family: Arial; /*changes the font of the text in figcaption*/
+    font-size: 12px; /*changes the size of the text*/
+}
+
+a{
+    color: black; /*changes the text color to black*/
+}
