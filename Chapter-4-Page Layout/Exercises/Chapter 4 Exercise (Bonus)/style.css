@@ -1,0 +1,72 @@
+body{
+    margin: 0px; /*margin set to 0 for body content*/
+}
+
+h1{
+    text-align:center; /*aligns the text to the center*/
+    font-family: Arial; /*selecting the font Arial*/
+
+}
+
+.navbar ul{
+    list-style-type: none; /*removes the bullets from the list*/
+    background-color: black;/*controls the background color*/
+    padding:0px; /*creates space around an element's content*/
+    margin:0px; /*controls the spacing of the element*/
+    overflow: hidden; /*cuts out an overflowing element*/
+    text-align: center; /*aligns the text to the center*/
+}
+
+.navbar a{
+    color:white; /*controls the color of the text*/
+    text-decoration: none; /*removes any decoration from the text in this case the underline*/
+    padding: 15px; /*creates space around an element's content*/
+    display: block; /*causes an element to take a newline in the screen width*/
+    text-align:center; /*centers the text*/
+    font-family: Arial; /*selecting the font Arial*/
+    font-size: 25px; /*controls font size*/
+}
+
+.navbar li{
+    display: inline-block; /*the display property of the items in the list set to inline block */
+}
+
+#container{
+    display: flex;  /* we use flexbox for layout*/
+    justify-content: center; /*centers the content*/
+    align-items: center; /*centers the items*/
+    min-height: 400px; /*sets a min height of 400px*/
+}
+
+#container div{
+    height: 370px; /*height of the divs*/
+    width: 335px; /*width of the divs*/
+    margin: 50px; /*spacing between divs*/
+}
+
+button{
+    margin-top: 10px;/*controls the margin top of the button*/
+    margin-left: 15px;/*controls the margin left of the button*/
+}
+
+p{
+    font-family: Arial; /*selecting the font Arial*/
+}
+
+h3{
+    font-family: Arial; /*selecting the font Arial*/
+}
+
+h4{
+    font-family: Arial; /*selecting the font Arial*/
+}
+
+footer{
+    margin-top: 150px; /*space top of the footer*/
+    text-align:center; /*aligns the text to the center*/
+    background-color: black; /*controls the background color*/
+    color: white;  /*controls the color of the text*/
+    padding:10px; /*controls the size of the footer*/
+    font-family: Arial; /*selecting the font Arial*/
+
+}

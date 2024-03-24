@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study planner - Web dev module</title>
+    <!--linking an external stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Study plan - Web development module</h1>
+        <nav class="navbar">
+            <!--to create an unordered list we use the tag ul-->
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!--to create a button we use the button tag and we surround that tag with an "a" tag to create a hyperlink. set it to 
+        the document, the target is set to blank so it opens in a new page.-->
+        <a href="https://docs.google.com/document/d/1lPSMuUMv4A4VsF9V6PIGd_uD28j2J0qM/edit"
+        target="_blank"
+        title="Module guide">
+        <button>Module guide</button>
+        </a>
+    </header>
+
+    <main>
+        <!--to create a three column page we use one div as the container of the three columns and we add 3 divs inside of the container-->
+        <div id="container">
+            <div><h3>Topics covered in Module</h3>
+                <!--creating an unordered list using ul tag.-->
+                <ul>
+                    <li>Text</li>
+                    <li>Images</li>
+                    <li>CSS Styling</li>
+                    <li>Audio, Video & Embedded Content</li>
+                    <li>Structure and Semantic Markup</li>
+                    <li>Navigation</li>
+                    <li>CSS Animation</li>
+                    <li>JavaScript Basics</li>
+                    <li>HTML5 Canvas Basics</li>
+                    <li>Coding Conventions and Troubleshooting</li>
+                </ul>
+            </div>
+
+            <div><h3>Assesment</h3>
+                <p>Your learning is measured via a mix of formative and summative assessments that occur across the course of the module. Summative assessments contribute to your module grades whereas formative assessments help you develop your skills. All assessment types are non-combative, and should be seen as an opportunity to identify areas in which you need more practice. There are 2 summative assessments that contribute to your module mark.</p>
+                <h4>Set Exercises</h4>
+                <p>Develop solutions to a series of exercises that will test each of the fundamental web development techniques introduced through the course of the module. This assessment consists of staged deadlines throughout the module.</p>
+                <h4>Web Development Project</h4>
+                <p>Design and build an interactive experience using web technologies. This submission must be supported by a development document of 1,000 words.</p>
+
+            </div>
+            <div><h3>Key advice</h3>
+                <p>Programming is a critical element of your degree that features across the course. It is important that you put the time into understanding all concepts introduced during seminars and lab sessions.That said, don’t be disheartened if you find you are struggling initially. Programmers will tell you that there is a ‘click’ point in coding where you move from sheer confusion (about programming logic, syntax etc), to a clearer understanding of its purpose and its implementation. When that point comes, your learning will accelerate naturally and you will gain a great deal of confidence. Just stick at it…</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        Study plan created by: Mohamed
+    </footer>
+
+    
+</body>
+</html>
