@@ -1,0 +1,99 @@
+main{
+    display:flex; /* we use flexbox for layout*/
+
+}
+
+body{
+    margin: 0; /*removes margins from body*/
+}
+
+header{
+    background-color: #17072b; /*adds a backgorund color to the header*/
+    margin:0; /*removes margins from the header*/
+    padding:0; /*removes padding from the header*/
+
+}
+
+h1{
+    text-align: center; /*alings text to the center*/
+    font-family: Tahoma; /*selecting the font Tahoma*/
+    color:white; /*selects the color of the text*/
+    margin:0; /*removes margins*/
+    padding-top: 20px; /*adds padding to the top of the text*/
+    text-decoration: underline; /*underlines the text*/
+    padding-bottom: 20px; /*adds padding to the bottom of the text*/
+}
+
+.navbar ul{
+    list-style-type: none; /*removes the bullets from the list*/
+    background-color: #17072b; /*controls the background color*/
+    padding:0px; /*creates space around an element's content*/
+    margin:0px; /*controls the spacing of the element*/
+    overflow: hidden; /*cuts out an overflowing element*/
+    text-align: center; /*aligns the text to the center*/
+}
+
+.navbar a{
+    color:white; /*controls the color of the text*/
+    text-decoration: none; /*removes any decoration from the text in this case the underline*/
+    padding: 15px; /*creates space around an element's content*/
+    display: block; /*causes an element to take a newline in the screen width*/
+    text-align:center; /*centers the text*/
+    font-family: Tahoma; /*selecting the font Tahoma*/
+    font-size: 25px; /*controls the font size*/
+}
+
+.navbar a:hover{
+    background-color: #0b0414; /*background color when the user hovers*/
+}
+
+.navbar li{
+    display: inline-block; /*the display property of the items in the list set to inline block */
+}
+
+section{
+    flex:1;
+    float: left; /*elements float to the left*/
+    margin-left: 15px; /*controls margin of the left side*/
+    margin-right: 15px; /*controls margin of the right side*/
+}
+
+h2{
+    font-family:Arial; /*selecting the font Arial*/
+    font-size: 30px; /*controls the font size*/
+    text-decoration:solid underline; /*makes the text solid and adds an underline */
+}
+
+p{
+    font-family: Arial; /*selecting the font Arial*/
+    font-size: 20px; /*controls the font size*/
+}
+
+aside{
+    flex: 1;
+    background-color: #172d67; /*controls background color*/
+    color: white; /*controls the color of the text*/
+    margin-top: 15px; /*controls the spacing of the top of the element*/
+    padding: 30px; /*adds space to the elements*/
+}
+
+#code{
+    float:left; /*allows content to flow to the right of the image*/
+}
+
+ul{
+    list-style:square; /*makes the list have squares instead of numbers,etc*/
+    font-family: Arial; /*selecting the font Arial*/
+    padding:12px; /*adds padding to the list */
+}
+
+
+footer{
+    margin-top: 15px; /*controls the spacing of the top of the element*/
+    padding: 5px; /*adds space between the text and the box its in*/
+    background-color: #8c15e9; /*controls background color*/
+    color: white; /*controls the color of the text*/
+    text-align:center; /*aligns the text to the center*/
+    font-family: Arial; /*selecting the font Arial*/
+    font-size: 18px; /*controls the font size*/
+}
