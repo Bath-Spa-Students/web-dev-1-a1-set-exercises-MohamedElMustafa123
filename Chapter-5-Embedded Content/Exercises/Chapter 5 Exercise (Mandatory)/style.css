@@ -1,0 +1,25 @@
+body{
+    background-color: black; /*changes background color*/
+    margin: 0; /*sets margin to 0*/
+    font-family: Arial; /*font used for the body is Arial*/
+
+}
+
+h1{
+    color: white; /*color of text is white*/
+    text-align: center; /*text is center aligned*/
+}
+
+.vid{
+    display: flex; /*sets the display to flex*/
+    height: 100vh; /*height is 100% of the viewport height*/
+    justify-content: center; /*controls the alignment of items on the main axis*/
+    align-items: center; /*controls the alignment of items on the cross axis*/
+}
+
+.image{
+    display: flex; /*sets the display to flex*/
+    height: 100vh; /*height is 100% of the viewport height*/
+    justify-content: center; /*controls the alignment of items on the main axis*/
+    align-items: center; /*controls the alignment of items on the cross axis*/
+}
