@@ -1,0 +1,131 @@
+body{
+    margin: 0; /*sets body margin to 0*/
+    padding: 0; /*sets body padding to 0*/
+    box-sizing: border-box; /* takes into account padding and margins when selecting a width and height*/
+    font-family: "Lobster";/*sets the font of the text*/
+    color: white;/*color of the text*/
+}
+
+h1{
+    text-align: center;/*aligns the text of h1 to the center*/
+    font-size: 30px; /*changes the size of the text*/
+}
+
+.text_to_speech{
+
+    width: 30%;/*makes the element cover 30% of the width of the viewport*/
+    float: left; /*allows elements to be added to the same line*/
+    padding:20px; /*padding set to 20px*/
+}
+
+#text_to_convert{
+    width: 100%; /*makes the element cover 100% of the width of the text_to_speech div*/
+    height: 200px; /*height set to 200*/
+    border-radius: 5px; /*adds curve to the border*/
+    resize: none; /*stops the user from being able to resize the box*/
+    font-size: 15px; /*controls the size of text*/
+}
+
+
+button{
+    padding: 12px; /*padding set to 12px*/
+    background-color:white; /*control background color*/
+    color: black; /*color of text is black*/
+    font-family: "Lobster"; /*selects the font*/
+    border: 0px; /*border set to 0px*/
+    border-radius: 5px; /*adds curve to the border*/
+    cursor: pointer; /*cursor becomes a pointer when it goes over the button*/
+}
+
+.container{
+    width: 50%; /*makes the element cover 50% of the width of the viewport*/
+    height: auto; /*height is set to auto*/
+    display: flex; /*display set to flex*/
+    flex-direction: row; /*the direction of the flex is row*/
+    flex-wrap: wrap; /*makes it so divs go to the next line if there isnt space to contain them in a single one*/
+    justify-content: center; /*centers content on the main axis*/
+    z-index:1; /*sends the container to the front */
+    float: right; /*moves the divs to the right*/
+
+}
+
+.box{
+    width: 200px; /*sets width of the boxes*/
+    height: 180px; /*sets height of the boxes*/
+    background-color: white; /*sets the background color*/
+    color: black; /*sets the color of text*/
+    text-align: center; /*aligns text to the center*/
+    line-height: 200px; /*conrtols the space above and below of the text*/
+    margin: 5px; /*margin set to 10px*/
+    font-size: 15px; /*controls text size*/
+    border: 3px solid red; /*creates a border of 5px solid and is red*/
+    border-radius: 10px; /*adds a curve to the border*/
+
+}
+
+.box:hover{ /*when hovering over a box*/
+    background-color: black;  /*background color becomes black*/
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red; /*adds a glowing effect using shadows*/
+    color: red; /*color of text becomes red*/
+
+}
+
+/*background animation created by Teenage Programmer from Youtube
+followed along and understood the code*/
+
+
+.bgAnimation{
+    position: absolute; /*positions elements absolutly to the containing element*/
+    top: 0; /*positions elements 0px from the top*/
+    left: 0;/*positions elements 0px from the left*/
+    width: 100%; /*makes the animation cover 100% of the width of the viewport*/
+    height: 100vh;/*makes the animation cover 100% of the height of the viewport*/
+    display: grid; /*display becomes a grid*/
+    grid-template-columns: repeat(20,1fr); /*creats 20 columns*/
+    grid-template-rows: repeat(20,1fr); /*creates 20 rows*/
+    background: #1d1d1d; /*color of the element*/
+    filter: saturate(6); /*filter to saturate the color*/
+    overflow: hidden; /*hides any element that overflows*/
+    z-index: -1; /*sends the animation behind other content of the website*/
+}
+
+.colorBox{
+    z-index: 2; /*sends the boxes above element with a lower z-index*/
+    filter: brightness(1.1); /*control the brightness of the colored boxes (to make it visible since the background is also the same color*/
+    transition: 2s ease; /*an easing transition with a length of 2s*/
+    position: relative; /*positions elements relative to its normal position*/
+    margin: 2px; /*margin is set to 2px around the colorboxes*/
+    background: #1d1d1d; /*color of the element*/
+    border-radius: 5px; /*adds a curve to the boxes*/
+}
+
+.backgroundAmim{
+    position: absolute; /*positions elements absolutly to the containing element*/
+    top: 0; /*positions elements 0px from the top*/
+    left: 0; /*positions elements 0px from the left*/
+    width: 100%; /*makes the element cover 100 of the width of the viewport*/
+    height: 40px; /*height set to 40px*/
+    background: red; /*the glow that passes through is red*/
+    filter: blur(60px); /*adds a blur effect */
+    animation: animBack 6s linear infinite; /*uses the animBack animation, it lasts 6 secs, and repeats infinitely*/
+}
+
+@keyframes animBack { /*defines a keyframe called animBack*/
+    /*the animation moves from the top of the screen to the bottom of the screen*/
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: 120%;
+    }
+}
+
+footer{
+    margin-top: 560px; /*adds space to the top of the footer*/
+    text-align:center; /*centers the text*/
+    font-size: 15px; /*controls the size of the text*/
+}
+
+a{
+    color: white; /*any hyperlinkes text color is set to white*/
+}
