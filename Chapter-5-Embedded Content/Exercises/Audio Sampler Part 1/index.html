@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Sampler</title>
+
+    <!--linking the stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--to use a costume google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+    <div class="bgAnimation" id="bgAnimation">
+        <div class="backgroundAmim"> </div>
+    </div>
+    <header>
+        <h1>Audio Sampler</h1>
+
+    </header>
+
+    <main>
+
+        <!--to create a website with columns we can create a nested div-->
+        <div class="container">
+            <!--to play the sound when the user clicks we use onclick, the audio is stored in the variable sound1, sound2, etc-->
+            <div onclick="sound1.play()" class="box">Ah-ha</div>
+            <div onclick="sound2.play()" class="box">Back of the net</div>
+            <div onclick="sound3.play()" class="box">Bang out of order</div>
+            <div onclick="sound4.play()" class="box">Dan</div>
+            <div onclick="sound5.play()" class="box">Email of the evening</div>
+            <div onclick="sound6.play()" class="box">Hello partridge</div>
+            <div onclick="sound7.play()" class="box">I ate a scotch egg</div>
+            <div onclick="sound8.play()" class="box">I'm confused</div>
+        </div>
+
+    </main>
+
+    <footer>
+        created by: Mohamed <br>
+        <!--hyperlinking an email-->
+        <a href="mailto:nobimohamed262@gmail.com" title="redirects to email">Email me</a>
+    </footer>
+
+    <!--to run the javascript for the animation and sounds-->
+    <script src="script.js"></script>
+</body>
+</html>
