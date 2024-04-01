@@ -82,7 +82,7 @@ aside{
 }
 
 ul{
-    list-style:square; /*makes the list have squares instead of numbers,etc*/
+    list-style-type:"- "; /*makes the list have dashes instead of numbers,etc*/
     font-family: Arial; /*selecting the font Arial*/
     padding:12px; /*adds padding to the list */
 }
